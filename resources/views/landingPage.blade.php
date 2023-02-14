@@ -9,16 +9,16 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="flex flex-row border">
-        <div class="basis-1/4 border">
+    <nav class="flex flex-row border w-3/4 m-auto">
+        <div class="basis-1/3 border">
             <a href="">LOGO</a>
         </div>
-        <div class="flex flex-row w-full justify-center basis-4/5 border">
+        <div class="flex flex-row w-full justify-center basis-3/4 border">
             <div class="px-3 mx-3 border"><a href="">Item 1</a></div>
             <div class="px-3 mx-3 border"><a href="">Item 1</a></div>
             <div class="px-3 mx-3 border"><a href="">Item 1</a></div>
         </div>
-        <div class="flex flex-row w-full justify-center basis-1/4 border">
+        <div class="flex flex-row w-full justify-center basis-1/3 border">
             <div class="px-3 mx-3 border"><a href="">Login</a></div>
             <div class="px-3 mx-3 border"><a href="">Sign-up</a></div>
         </div>
@@ -32,24 +32,53 @@
     </div>
     <!-- Hero end -->
     <!-- Content -->
-    <section class="flex flex-col">
-        <div class="flex flex-col w-full items-center">
-            <!-- content title -->
-            <h2 class="text-2xl font-bold">Everything you need to take your system to the next level.</h2>
-            <p class="text-xl">Lorem ipsum dolor sit amet.</p>
-            <!-- content content -->
-            <div class="flex flex-row w-max">
-                <div class="flex flex-col w-max border-gray-300 border-r-4">
-                    <div class="border-r-4 border-blue-900"><a href="">Item</a></div>
-                    <div class="">Item</div>
-                    <div class="">Item</div>
-                </div>
-                <div>
-                    Tab content
-                </div>
+    <!-- Stats -->
+    <section class="flex flex-col w-full">
+        <div class="grid grid-flow-col w-full place-items-center ">
+            <div class="col1 border text-center">
+                <p class="text-5xl font-bold ">100%</p>
+                <p class="text-2xl">Stats</p>
+            </div>
+            <div class="col1 border text-center">
+                <p class="text-5xl font-bold">P 500,000</p>
+                <p class="text-2xl">Stats</p>
+            </div>
+            <div class="col1 border text-center">
+                <p class="text-5xl font-bold">1M</p>
+                <p class="text-2xl">Stats</p>
+            </div>
+            <div class="col1 border text-center">
+                <p class="text-5xl font-bold">5+</p>
+                <p class="text-2xl">Stats</p>
             </div>
         </div>
     </section>
+    <!-- Stats end -->
+
+    <!-- Cards -->
+    
+    <!-- Cards end -->
+
+    <!-- Tabs -->
+        <!-- <div class="flex flex-row">
+            <div class="flex flex-col w-1/2">
+                <div class="border hover:bg-blue-300 hover:border-r-4 hover:border-blue-500">
+                    <button class="p-3">Tab1</button>
+                </div>
+                <div class="border hover:bg-blue-300 hover:border-r-4 hover:border-blue-500">
+                    <button class="p-3">Tab1</button>
+                </div>
+                <div class="border hover:bg-blue-300 hover:border-r-4 hover:border-blue-500">
+                    <button class="p-3">Tab1</button>
+                </div>
+            </div>
+            <div class="flex border w-1/2 items-center justify-center">
+                Tab Content here
+            </div>
+        </div>` -->
+    <!-- Tabs end -->
+
+
     <!-- Content end -->
 </body>
 </html>
