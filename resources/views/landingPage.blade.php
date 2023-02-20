@@ -10,15 +10,15 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="flex flex-row border w-11/12 m-auto py-3">
-        <div class="basis-1/3 border">
+    <nav class="flex flex-row  w-11/12 m-auto py-3">
+        <div class="basis-1/3 ">
             <a href="" class="text-3xl font-bold">Word<span class="text-primary">Weaver</span></a>
         </div>
-        <div class="flex flex-row w-full justify-center items-center basis-3/4 border">
-            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Home</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Blog</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">About</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Contact</a></div>
+        <div class="flex flex-row w-full justify-center items-center basis-3/4 ">
+            <div class=" mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Home</a></div>
+            <div class=" mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Blog</a></div>
+            <div class=" mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">About</a></div>
+            <div class=" mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Contact</a></div>
         </div>
         <div class="flex flex-row w-full justify-end items-center basis-1/3">
             <div class="mx-3"><a href="/login" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Login</a></div>
