@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/landingPage.js')
-    <title>Blogger - App</title>
+    <title>Word Weaver</title>
 </head>
 <body>
     <!-- Navigation -->
@@ -308,8 +308,6 @@
         </section>
     <!-- Testimonial end -->
     <!-- Content end -->
-
-
     <!-- Footer -->
     <footer class="flex flex-col w-full border-t bg-slate-900 text-white">
         <div class="flex flex-row w-11/12 m-auto justify-around items-center py-5">
