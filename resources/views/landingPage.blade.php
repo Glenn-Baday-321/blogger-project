@@ -14,32 +14,54 @@
         <div class="basis-1/3 border">
             <a href="" class="text-3xl font-bold">Word<span class="text-primary">Weaver</span></a>
         </div>
-        <div class="flex flex-row w-full justify-center basis-3/4 border">
-            <div class="border mx-3"><a href="" class="font-semibold px-4 py-2 hover:border-b-4 hover:border-primary">Home</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold px-4 py-2 hover:border-b-4 hover:border-primary">Blog</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold px-4 py-2 hover:border-b-4 hover:border-primary">About</a></div>
-            <div class="border mx-3"><a href="" class="font-semibold px-4 py-2 hover:border-b-4 hover:border-primary">Contact</a></div>
+        <div class="flex flex-row w-full justify-center items-center basis-3/4 border">
+            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Home</a></div>
+            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Blog</a></div>
+            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">About</a></div>
+            <div class="border mx-3"><a href="" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Contact</a></div>
         </div>
-        <div class="flex flex-row w-full justify-end basis-1/3 border">
-            <div class="mx-3 border"><a href="/login" class="px-3 py-1 rounded-sm">Login</a></div>
-            <div class="px-3 mx-3 border"><a href="" class=" font-bold py-2 px-4 rounded-full">Register</a></div>
+        <div class="flex flex-row w-full justify-end items-center basis-1/3">
+            <div class="mx-3"><a href="/login" class="font-semibold py-1 hover:text-primary hover:border-b-2 hover:border-primary">Login</a></div>
+            <div class="space-y-4 mx-3"><a href="/register" class="bg-gradient-to-r from-red-600 via-primary to-yellow-400 text-white font-bold py-1 px-4 rounded-full">Register</a></div>
         </div>
     </nav>
     <!-- Navigation end -->
     <!-- Hero section -->
     <div class="h-[90vh] flex flex-row justify-center w-11/12 m-auto">
         <div class="flex flex-col w-full items-start justify-center bg-hero-img bg-cover bg-no-repeat rounded-lg drop-shadow-sm">
-            <div class="w-9/12 text-left mx-20 space-y-5">
-                <h3 class="text-2xl font-bold">Our Blog</h3>
-                <h1 class="text-6xl font-bold">Resources for makers and creatives to learn, sell and grow</h1>
-                <p class="text-lg font-bold text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit.</p>
+            <div class="w-2/3 text-left p-5 space-y-8 bg-gradient-to-r from-black to-black opacity-70 rounded-r-xl">
+                <h1 class="text-5xl font-bold text-white"><span class="text-primary">Resources for makers and creatives</span> to learn, sell & grow</h1>
+                <p class="text-lg font-bold text-white w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reprehenderit.</p>
+                <button class="bg-gradient-to-r from-red-600 via-primary to-yellow-400 opacity-100 text-lg font-bold text-white bg-primary rounded-xl px-3 py-1 hover:border-white hover:text-white">Sign-up</button>
             </div>
         </div>
     </div>
     <!-- Hero end -->
     <!-- Content -->
+    <!-- Stats -->
+        <section class="flex flex-col w-11/12 m-auto my-5 bg-black rounded-xl shadow-xl">
+            <div class="grid grid-flow-col w-full place-items-center p-7 text-white">
+                <div class="col1 text-center">
+                    <p class="text-4xl font-bold ">100%</p>
+                    <p class="text-lg">Guaranteed!</p>
+                </div>
+                <div class="col1 text-center">
+                    <p class="text-4xl font-bold">500,000</p>
+                    <p class="text-lg">Users worldwide</p>
+                </div>
+                <div class="col1 text-center">
+                    <p class="text-4xl font-bold">1M</p>
+                    <p class="text-lg">Blogs</p>
+                </div>
+                <div class="col1 text-center">
+                    <p class="text-4xl font-bold">5+</p>
+                    <p class="text-lg">Ratings</p>
+                </div>
+            </div>
+        </section>
+    <!-- Stats end -->
     <!-- Articles -->
-        <section class="grid grid-rows-2 grid-flow-col gap-7 w-11/12 m-auto my-20">
+        <section class="grid grid-rows-2 grid-flow-col gap-7 w-11/12 m-auto my-10">
             <div class="shadow-2xl row-span-2 col-span-3 rounded-lg">
                 <div class="flex flex-col m-7">
                     <img class="rounded-lg w-full drop-shadow-xl" src="https://images.pexels.com/photos/796607/pexels-photo-796607.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="image">   
@@ -92,7 +114,7 @@
                 <p class="text-lg p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="flex flex-row justify-center w-1/2">
-                <input class="rounded-l-full px-3 py-2 text-lg w-2/3" type="text" placeholder="Search blog">
+                <input class="rounded-l-full px-3 pl-8 py-2 text-lg w-2/3" type="text" placeholder="Looking for something?">
                 <button class="rounded-r-full bg-primary px-4 py-3 text-lg font-bold text-white w-1/4">Search Now</button>
             </div>
         </section>
@@ -103,7 +125,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/730801/pexels-photo-730801.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-orange-400 w-fit py-1 px-2 rounded-full">Design</span>
                         </div>
@@ -113,7 +135,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-orange-400 w-fit py-1 px-2 rounded-full">Design</span>
                             <span class="text-sm font-semibold text-white bg-yellow-400 w-fit py-1 px-2 rounded-full">Web Development</span>
@@ -124,7 +146,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/583843/pexels-photo-583843.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-pink-400 w-fit py-1 px-2 rounded-full">Music</span>
                             <span class="text-sm font-semibold text-white bg-red-500 w-fit py-1 px-2 rounded-full">Art</span>
@@ -136,7 +158,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/3862632/pexels-photo-3862632.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-slate-400 w-fit py-1 px-2 rounded-full">Systems Development</span>
                         </div>
@@ -147,7 +169,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-amber-700 w-fit py-1 px-2 rounded-full">Nature</span>
                         </div>
@@ -157,7 +179,7 @@
                 <div class="flex">
                     <img class="rounded-lg w-64 drop-shadow-xl " src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
                     <div class="flex flex-col justify-between py-6 ml-6">
-                        <a href="" class="text-xl font-semibold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        <a href="" class="text-xl font-bold hover:underline">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
                         <div class="flex flex-row space-x-3">
                             <span class="text-sm font-semibold text-white bg-cyan-500 w-fit py-1 px-2 rounded-full">Ocean man</span>
                         </div>
@@ -216,46 +238,70 @@
     <!-- call to action end -->
 
     <!-- Testimonial -->
-        <section class="flex flex-col w-3/4 m-auto items-center my-10">
+        <section class="flex flex-col w-11/12 m-auto items-center my-10">
             <div class="text-center py-5 w-2/3 m-auto">
                 <h2 class="text-4xl font-bold p-3">Loved by people worldwide.</h2>
                 <p class="text-lg p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cupiditate accusamus dolore nam molestiae consectetur.</p>
             </div>
-            <div class="grid grid-cols-3 gap-4">
-                <div class="grid grid-flow-row gap-4">
-                <div class="border">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus amet impedit omnis sunt? Nihil ut voluptates inventore repellendus blanditiis delectus.
-                        </p>
-                    </div>
-                    <div class="border">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sequi voluptate modi obcaecati ex aliquid labore explicabo at recusandae animi.
-                        </p>
+            <div class="grid grid-cols-3 gap-4 auto-rows-auto">
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold text-xl">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, reiciendis."</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Sheryl Berge</span>
+                            <span class="text-gray-500 ">CEO at Lynch LLC</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.c78616b7.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
                     </div>
                 </div>
-                <div class="grid grid-flow-row gap-4">
-                    <div class="border">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corrupti, aliquid voluptatem explicabo ad ipsum rem. Voluptate facere dolore iste libero eveniet. Molestias facere atque laboriosam asperiores! Eius, ullam suscipit?
-                        </p>
-                    </div>
-                    <div class="border">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis velit nam itaque quos pariatur harum laborum, commodi facere aut beatae quis animi, eos corporis id dolorem repellendus dicta eum iusto?
-                        </p>
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold text-lg">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quis numquam dicta enim aliquid dolores molestiae quod at. Corrupti hic beatae voluptatum at eius sunt veniam ab similique rerum quas?"</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Leland Kiehn</span>
+                            <span class="text-gray-500 ">Founder of Kiehn and Son</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.e7f7faf2.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
                     </div>
                 </div>
-                <div class="grid grid-flow-row gap-4">
-                <div class="border">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus amet impedit omnis sunt? Nihil ut voluptates inventore repellendus blanditiis delectus.
-                        </p>
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quam praesentium quos, recusandae magni cupiditate nulla saepe maiores perspiciatis consequuntur sequi veritatis qui blanditiis eum incidunt dolore! Quidem repellendus dolor sunt vero veritatis? Nobis ullam veniam minus. Repellat, dolorum fugit!"</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Peter Renolds</span>
+                            <span class="text-gray-500 ">Founder of West Inc</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-3.eaa9ef6f.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
                     </div>
-                    <div class="border">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sequi voluptate modi obcaecati ex aliquid labore explicabo at recusandae animi.
-                        </p>
+                </div>
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora quis aspernatur libero reprehenderit temporibus perspiciatis aliquid, quas accusantium excepturi."</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Amy Hahn</span>
+                            <span class="text-gray-500 ">Director at Velocity Industries</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.16b4e29e.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat iste odit mollitia! Odio soluta ad veniam facilis asperiores? Dolorem?</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Erin Powlowski</span>
+                            <span class="text-gray-500 ">COO at Armstrong Inc</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.c72e5a40.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-between space-y-4 shadow-xl p-5 rounded-xl">
+                    <p class="font-semibold text-xl">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, reiciendis."</p>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex flex-col">
+                            <span class="text-lg">Amy Hahn</span>
+                            <span class="text-gray-500 ">Director at Velocity Industries</span>
+                        </div>
+                        <img src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.16b4e29e.png&w=64&q=75" class="w-16 rounded-full" alt="Avatar"/>
                     </div>
                 </div>
             </div>
@@ -265,25 +311,32 @@
 
 
     <!-- Footer -->
-    <footer class="flex flex-col w-full">
-        <div class="flex flex-row border w-3/4 m-auto justify-around">
+    <footer class="flex flex-col w-full border-t bg-slate-900 text-white">
+        <div class="flex flex-row w-11/12 m-auto justify-around items-center py-5">
             <div class="basis-1/3 text-center">
                 <a href="" class="text-5xl font-bold">Word<span class="text-primary">Weaver</span></a>
             </div>
-            <div>
-                nav
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
+            <div class="list-none">
+                <span class="font-semibold text-lg">Navigation</span>
+                <li class="hover:underline"><a href="">Home</a></li>
+                <li class="hover:underline"><a href="">Blog</a></li>
+                <li class="hover:underline"><a href="">About</a></li>
+                <li class="hover:underline"><a href="">Contact</a></li>
             </div>
-            <div>
-                reosurces
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
+            <div class="list-none">
+                <span class="font-semibold text-lg">Resources</span>
+                <li class="hover:underline"><a href="">dribbble.com</a></li>
+                <li class="hover:underline"><a href="">pexels.com</a></li>
+                <li class="hover:underline"><a href="">tailwindcss.com</a></li>
+                <li class="hover:underline"><a href="">heroicons.com</a></li>
+            </div>
+            <div class="flex flex-col">
+                <span class="font-semibold text-lg">Contact Info</span>
+                <span class="">example.email@example.com</span>
+                <span class="">577 Golden Star Lane Rome, NY 13440</span>
             </div>
         </div>
-        <div class="flex flex-row border w-full justify-between m-auto px-10 py-2 bg-slate-900 text-white">
+        <div class="flex flex-row w-full justify-between items-center m-auto px-10 py-1 border-t">
             <p class="font-semibold text-lg">Copyright @ 2023 Glenn Baday</p>
             <div class="flex flex-row space-x-3">
                 <svg fill="#fff" class="w-9 h-9 " viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
